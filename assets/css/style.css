@@ -1,0 +1,144 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.header{
+
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    color:black;
+    font-size: 38px;
+}
+.container{
+    max-width: 900px;
+    width: 100%;
+    border: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+.tulp{
+    display: flex;
+    flex-direction: column;
+}
+.tulp img {
+    width: 200px ;
+}
+.tulp.vasak {
+    margin-right: 10px;
+}
+.blog img{
+    width: 200px;
+    height: auto;
+    margin-bottom: auto;
+}
+.page {
+    display: flex;
+    flex-direction: column;
+    }
+.page img {
+    width: 400px;
+    height: auto;
+    margin-bottom: auto;
+}
+.footer{
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: transparent;
+    padding: 0.5rem;
+    color: black;
+    background-color:lightgray;
+    margin-top: auto;
+    padding-top: 10px;
+}
+.nav{
+    display: flex;
+}
+.content {
+    max-width: 940px;
+    margin: auto;
+    display: flex;
+}
+.half {
+    width: 50%;
+    margin: 0.10px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+.blog {
+    flex-direction: column;
+}
+.blogkokkuvote {
+    font-size: 10px;
+    margin-top: 10px;
+}
+.
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.social-icons i {
+    margin: 5px;
+    color: pink;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+.btn:hover + .menu,
+.menu:hover {
+    max-width: 940px;
+}
+.dropbtn {
+    background-color:pink;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color:red;}
+
+  .raamat {
+      overflow: hidden;
+  }
