@@ -44,7 +44,6 @@ a {
 }
 .flex-1 {
     flex:1 1 0%;
-    
 }
 .flex-2 {
     flex: 2 2 0%;
@@ -98,6 +97,7 @@ a {
 }
 .blog {
     flex-direction: column;
+    width: 300px;
 }
 .blogkokkuvote {
     font-size: 10px;
