@@ -87,6 +87,22 @@ a {
     margin: auto;
     display: flex;
 }
+.profiil {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: 200px;
+    justify-content: space-between;
+    background: white;
+    transition: all 2s;
+    background-size: cover;
+    
+}
+.profiil:hover {
+    background: lightgray;
+    transform: scale(-1)rotate(360deg) scaleX(-1);
+    background: pink;
+}
 .half {
     width: 50%;
     margin: 0.10px;
